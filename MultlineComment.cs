@@ -1,13 +1,15 @@
 // Comment Program  
 
 using System;
-public class CommentProgram
+public class MulitlineComment
 {
     public static void Main(string[] args)
     {
-        int a = 15; // Here, a is a variable
+        /* Define and print variable in CSharp
+         
+         */
+        int a = 15; 
 
         Console.WriteLine(a);
-        
     }
 }
