@@ -1,4 +1,4 @@
-// Goto Loop Statement 
+// Comment Program 
 
 using System;
 public class CommentProgram
