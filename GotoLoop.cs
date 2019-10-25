@@ -1,13 +1,23 @@
 // Goto Loop Statement 
 
 using System;
-public class CommentProgram
+public class GotoProgram
 {
     public static void Main(string[] args)
     {
-        int a = 15; // Here, a is a variable
+    ineligible:
+        Console.WriteLine("You are not eligible to ID!");
 
-        Console.WriteLine(a);
-        
+        Console.WriteLine("Enter your age:\n");
+        int age = Convert.ToInt32(Console.ReadLine());
+        if (age < 18)
+        {
+            goto ineligible;
+        }
+        else
+        {
+            Console.WriteLine("You are eligible to ID!");
+        }
+
     }
 }
