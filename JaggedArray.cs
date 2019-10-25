@@ -13,23 +13,25 @@
  * 
  */
 
-// Defined Multidimentinal Array 
+// Defined Jagged Array 
 
-using System;
-public class MultiDiArray
+public class JaggedArrayTest
 {
-    public static void Main(string[] args)
+    public static void Main()
     {
-        int[,] arr = { { 3, 2, 1 }, { 6, 5, 4 }, { 9, 8, 7 } }; //Array declaration and initialization  
+        int[][] arr = new int[2][];// Declare the array  
 
-        //Defined array traversal  
-        for (int a = 0; a < 3; a++)
+        arr[0] = new int[] { 12, 22, 55, 78 };// Initialize the array          
+        arr[1] = new int[] { 40, 62, 47, 45, 50, 64 };
+
+        // Traverse array elements  
+        for (int a = 0; a < arr.Length; a++)
         {
-            for (int b = 0; b < 3; b++)
+            for (int b = 0; b < arr[a].Length; b++)
             {
-                Console.Write(arr[a, b] + " ");
+                System.Console.Write(arr[a][b] + " ");
             }
-            Console.WriteLine();    //new line at each row  
+            System.Console.WriteLine();
         }
     }
 }
