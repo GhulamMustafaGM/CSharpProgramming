@@ -15,7 +15,7 @@ using System;
 
 public class MixNumArray
 {
-    static void printMin(int[] arr)
+    static void printMax(int[] arr)
     {
         int max = arr[0];
         for (int a = 1; a < arr.Length; a++)
