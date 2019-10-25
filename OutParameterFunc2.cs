@@ -6,7 +6,7 @@ namespace OutParameterProgram2
     class Program
     {
         // User-defined function  
-        public void Show(out int a, out int b) // Defiend out parameter  
+        public void Show(out int i, out int j) // Defiend out parameter  
         {
             int square = 5;
             i = square;
