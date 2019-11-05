@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Finding Area 
+
+using System;
 public struct RectangleShape
 {
     public int width, height;
