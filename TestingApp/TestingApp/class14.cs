@@ -1,4 +1,4 @@
-﻿// Finding Area 
+﻿// Finding Area of RectangleShape
 
 using System;
 public struct RectangleShape
