@@ -7,7 +7,7 @@ public class EnumProgram
     {
         int x = (int)Season.WINTER;
         int y = (int)Season.SUMMER;
-        int z = (int)Season.SUMMER;
+        int z = (int)Season.FALL;
 
         Console.WriteLine("WINTER = {0}", x);
         Console.WriteLine("SUMMER = {0}", y);
