@@ -30,7 +30,7 @@ public class TestAggregation
 {
     public static void Main(string[] args)
     {
-        Address a1 = new Address("Pergatan110, LGH:110 ", "Motala, ", "Ostergodland");
+        Address a1 = new Address("Pergatan110, LGH:110 ", "Motala, ", "Ostergotland");
         Employee e1 = new Employee(1, "Andersson", a1);
         e1.display();
     }
