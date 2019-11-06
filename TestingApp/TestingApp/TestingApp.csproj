@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="class46.cs" />
+    <Compile Include="AccessSpecifiers.cs" />
+    <Compile Include="class47.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
