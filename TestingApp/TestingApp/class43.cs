@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Protected Access Specifier 
+
+using System;
 namespace AccessModifiers
 {
     class ProtectedTest
@@ -17,7 +19,7 @@ namespace AccessModifiers
             // Accessing protected variable  
             Console.WriteLine("Hello " + program.name);
             // Accessing protected function  
-            program.Msg("James Don");
+            program.Msg("James ");
         }
     }
 }
