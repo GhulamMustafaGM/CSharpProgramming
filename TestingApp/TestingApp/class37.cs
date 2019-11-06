@@ -1,4 +1,7 @@
-﻿using System;
+﻿
+// Abstract class 
+
+using System;
 public abstract class MainShape
 {
     public abstract void draw();
