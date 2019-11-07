@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccessSpecifiers.cs" />
-    <Compile Include="class95.cs" />
+    <Compile Include="class96.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
