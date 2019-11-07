@@ -1,17 +1,14 @@
-﻿// String Copy() Method 
+﻿// String CopyTo() Method
 
 using System;
-
-public class StringProgram
-
+public class StringExample
 {
     public static void Main(string[] args)
     {
-        string S1 = "Hej ";
-        string S2 = string.Copy(S1);
+        string s1 = "Hello C#, How are You?";
+        char[] ch = new char[15];
 
-        Console.WriteLine(S1);
-        Console.WriteLine(S2);
-
+        s1.CopyTo(10, ch, 0, 12);
+        Console.WriteLine(ch);
     }
 }
