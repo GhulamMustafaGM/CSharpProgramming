@@ -1,4 +1,4 @@
-﻿// Threading Program: static method
+﻿// Threading Program: non-static method
 
 using System;
 using System.Threading;
