@@ -1,26 +1,23 @@
-﻿// TypeConversion
+﻿// CSharp Program
 
 using System;
 
-namespace TypeConversionApp
+namespace VariableDefinitionApp
 {
-    class StringConversion
+    class Program
     {
         static void Main(string[] args)
         {
-            int i = 76;
-            float f = 52.005f;
-            double d = 2445.7652;
-            bool b = true;
+            short a;
+            int b;
+            double c;
 
-            Console.WriteLine(i.ToString());
-            Console.WriteLine(f.ToString());
-            Console.WriteLine(d.ToString());
-            Console.WriteLine(b.ToString());
-            Console.ReadKey();
+            /* actual initialization */
+            a = 11;
+            b = 25;
+            c = a + b;
+            Console.WriteLine("a = {0}, b = {1}, c = {2}", a, b, c);
             Console.ReadLine();
-
         }
-
     }
 }
