@@ -7,6 +7,7 @@ namespace RectangleProgram
     class RectangleApp
     {
         //members variables declaration
+
         internal double width;
         internal double length;
 
