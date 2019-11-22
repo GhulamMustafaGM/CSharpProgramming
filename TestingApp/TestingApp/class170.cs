@@ -1,4 +1,4 @@
-﻿// Joining strings 
+﻿// Joining Strings 
 
 using System;
 
