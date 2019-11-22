@@ -11,14 +11,14 @@ namespace VariableDefinitionApp
             short a;
             int b;
             double c;
-         
-     
+
+
             /* actual initialization */
             a = 11;
             b = 25;
             c = a + b;
             Console.WriteLine("a = {0}, b = {1}, c = {2}", a, b, c);
-           
+
             Console.ReadLine();
         }
     }
